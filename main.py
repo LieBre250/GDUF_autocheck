@@ -45,7 +45,7 @@ def post(loginToken, address):
         "studentID": "%s" % studentID,
         "date": "%s" % date,
         "health": "体温37.3℃以下（正常）",
-        "address": "广东省肇庆市端州区七星街靠近广东金融学院肇庆校区",
+        "address": "广东省清远市清城区莲蟠路1号靠近广东金融学院清远校区北区3号学生公寓",
         "isTouch": "否",
         "isPatient": "不是"
     }
