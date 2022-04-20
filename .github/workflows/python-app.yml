@@ -17,9 +17,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    # 设置服务器时区为东九区 
+    # 设置服务器时区为东七区 
     - name: Set time zone
-      run: sudo timedatectl set-timezone 'Asia/Tokyo'
+      run: sudo timedatectl set-timezone 'Asia/Bangkok'
 
     - name: Set up Python 3.9
       uses: actions/setup-python@v2
